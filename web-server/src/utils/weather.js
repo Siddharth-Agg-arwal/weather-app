@@ -11,9 +11,10 @@ const weather = (latitude, longitude, callback) => {
         }
         else{
             callback(undefined, {
-                temperature : body.main.temp,
-                description : body.weather[0].main,
-                location : body.name
+                // temperature : body.main.temp,
+                // description : body.weather[0].main,
+                // location : body.name,
+                forecast : 'The current weather is ' + body.weather[0].main + ' with a temperature of ' + body.main.temp + ' degrees celsius at ' + body.name
             })
         }
     })

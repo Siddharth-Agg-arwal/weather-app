@@ -7,12 +7,15 @@
     <body>
         <div class="main">
             {{>header}}
-
-            <form>
-                <input placeholder="Location">
-                <button>Search</button>
+            <img id="weatherGIF" src="/assets/img/sun.gif" />
+            <form class="inputForm">
+                <input class="locationInput" placeholder="Location">
+                <button class="submitButton">Search →</button>
             </form>
-
+            
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+            
             {{>footer}}
 
             <script src="/js/app.js"></script>
