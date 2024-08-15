@@ -1,8 +1,4 @@
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100vw;
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +26,8 @@ body{
     text-decoration: none;
     padding:1.5vh 5vw 1.5vh 5vw;
     font-size: 1.5rem;
-    color: #2E1E0F;
+    font-weight: 600;
+    color: #6f5c58;
 }
 
 .navbar a:hover{
@@ -73,7 +70,28 @@ p{
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
-    align-items:end;
+    align-items:flex-start;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+}
+
+.footer-content p{
+    padding-left: 5vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-content hr{
+    width: 90%;
+    border: 2px dashed #8F726D;
+    
+    /* color:#8F726D; */
 }
 
 .main{
