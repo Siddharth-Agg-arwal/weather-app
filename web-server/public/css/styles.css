@@ -116,13 +116,13 @@ p{
     box-shadow: 4px 4px #2E1E0F;
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: #2E1E0F;
     padding: 0px 10px;
     outline: none;
 }
 
 .locationInput::placeholder{
-    color:white;
+    color:#2E1E0F;
     opacity: 0.5;
 }
 
