@@ -6,9 +6,13 @@
     </head>
     <body>
         <div class="main">
-            {{>header}}
-            <p class="help">{{helpText}}</p>
-            {{>footer}}
+            <div class="helpContent">
+                {{>header}}
+                <p class="help">{{helpText}}</p>
+            </div>
+            <div class="helpFooter">
+                {{>footer}}
+            </div>
         </div>
         
     </body>
